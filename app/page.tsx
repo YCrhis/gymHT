@@ -1,3 +1,5 @@
+'use client'
+
 import RegisterSection from "@/components/generics/RegisterSection";
 import About from "@/components/home/About";
 import Banner from "@/components/home/Banner";
@@ -13,9 +15,9 @@ export default function Home() {
         <Coaching />
         <Message />
         <About />
-        <TestimonialsSection/>
+        <TestimonialsSection />
       </div>
-         <RegisterSection/>
+      <RegisterSection />
     </div>
   );
 }
