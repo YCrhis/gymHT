@@ -32,3 +32,10 @@ p{
   letter-spacing: 1.5px;
   font-size: 17px;
 }
+
+
+/* text */
+.stroke-title {
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(132, 204, 22, 0.22);
+}
