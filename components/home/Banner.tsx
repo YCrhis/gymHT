@@ -6,7 +6,7 @@ const Banner = () => {
   const headH1 = "md:text-7xl text-3xl md:text-left text-center font-black mb-5";
   return (
     <section
-      className="h-screen w-full bg-cover bg-center flex items-center"
+      className="h-screen w-full bg-cover bg-center flex items-center relative"
       style={{
         backgroundImage: `
       linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -51,8 +51,8 @@ const Banner = () => {
             </IconContainer>
           </div>
           </div>
-          <div className="fixed right-[7%] bottom-[7%] md:block hidden">
-          <CardTrust />
+          <div className="absolute right-[7%] bottom-[7%] md:block hidden">
+            <CardTrust />
           </div>
         </div>
       </div>

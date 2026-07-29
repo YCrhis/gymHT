@@ -16,7 +16,7 @@ const subOptions = [
 
 const HeaderApp = () => {
   return (
-    <header className="py-5 fixed top-0 left-0 right-0 m-auto w-[80%] ">
+    <header className="py-5 fixed top-0 left-0 right-0 m-auto w-[80%] z-50">
       <div className="flex w-full items-center justify-between">
         {/* LOGO */}
         <div className="flex items-center gap-2">
@@ -25,7 +25,7 @@ const HeaderApp = () => {
         </div>
         {/* OPTIONS */}
         <div className="flex items-center gap-5">
-          <div className="items-center gap-7 rounded-2xl bg-main/10 py-5 px-9 backdrop-blur-2xl opacity-80 md:flex hidden">
+          <div className="items-center gap-7 rounded-2xl bg-second/60 py-5 px-9 backdrop-blur-2xl opacity-80 md:flex hidden">
             {optionsHeader.map((o) => (
               <a href={o.link} key={o.id} className="font-semibold">
                 {o.name}
