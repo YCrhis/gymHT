@@ -1,6 +1,8 @@
 import RoutineExerciseList from "@/components/in/routune/RoutineExerciseList"
 import RoutineHero from "@/components/in/routune/RoutineHero"
 import RoutineProgress from "@/components/in/routune/RoutineProgress"
+import RoutineReviews from "@/components/in/routune/RoutineReviews"
+import RoutineSummary from "@/components/in/routune/RoutineSummary"
 
 const Routine = () => {
   return (
@@ -45,6 +47,25 @@ const Routine = () => {
     },
   ]}
 />
+<RoutineSummary
+  calories={320}
+  duration="45 min"
+  exercises={8}
+  difficulty="Beginner"
+  rating={4.9}
+  muscles={[
+    "Chest",
+    "Shoulders",
+    "Triceps",
+  ]}
+  equipment={[
+    "Barbell",
+    "Bench",
+    "Dumbbells",
+    "Bodyweight",
+  ]}
+/>
+<RoutineReviews/>
     </div>
   )
 }
